@@ -2,9 +2,26 @@ html {
   font-size: 18px;
 }
 
+#app {
+  display: none;
+}
+
+#mobile {
+  display: block;
+  padding: 2rem;
+}
+
 @media (min-width: 900px) {
   html {
     font-size: 24px;
+  }
+
+  #app {
+    display: block;
+  }
+
+  #mobile {
+    display: none;
   }
 }
 
