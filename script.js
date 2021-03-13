@@ -180,17 +180,17 @@ class App extends React.Component {
           }),
           React.createElement("h1", null, "Hế nhô các bạn"),
           React.createElement("h2", null, "Mình là Tui Đi Code Dẹo!"),
-          React.createElement("p", null, "Mời các bạn vô nhận quà nhận sách free nè!"),
-          React.createElement("p", null, "Bấm nút phía dưới để nhận quà nha, mình hứa danh dự mình hok có cài virus spyware gì đâu hihi!"),
+          React.createElement("p", null, "Hãy NẠP LẦN ĐẦU để trở thành developer thần thánh như mình!"),
+          React.createElement("p", null, "Bấm nút phía dưới để nạp free nha, hứa danh dự hok có virus spyware gì đâu ahihi!"),
         ),
 
         React.createElement("button", {
             className: "trap-button",
             onClick: this.handleButtonClicked
           },
-          gameOver && "Lêu lêu, tối CN mới có quà nha!",
-          cursorGrabbed && "Lêu lêu, hụt rồi!",
-          !gameOver && !cursorGrabbed && "Bấm em đi anh"),
+          gameOver && "Có nạp cái lol ý, tin người vkl!",
+          cursorGrabbed && "Lêu lêu, nạp hụt rồi! Cố lên bạn ơi",
+          !gameOver && !cursorGrabbed && "Nạp lần đầu free!"),
 
 
         React.createElement("div", {
